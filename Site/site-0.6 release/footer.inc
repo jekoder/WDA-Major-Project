@@ -1,6 +1,5 @@
-
-<div style=" width:auto;  background:url(img/main_bglist.jpg) repeat-x #cccccc; height: 60px;">
-<div style=" width:960px; height:60px; margin:auto; padding:8px;;"><!--link pages-->
+<div style=" width:auto;  background:url(img/main_bglist.jpg) repeat-x #cccccc; height: 80px;">
+<div style=" width:1280px; height:80px; margin:auto; padding:10px;;"><!--link pages-->
  <h2><ul><a herf ="#">Support</a></ul></h2>
      <h3> <li><a href="#">Accdient report</a></li></h3>
  

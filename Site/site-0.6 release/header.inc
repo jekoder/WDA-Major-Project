@@ -10,7 +10,7 @@
 
 <!-- begin header-->
 
-<div style=" width:auto; background: url(img/foot_bgleft.jpg) repeat-x #333333;height: 92px;">
+<div style=" width:auto; background: url(img/foot_bgleft.jpg) repeat-x #333333;height: 120px;">
 <div class="header">
    <h1 class="logo"><a href="#">REUNION</a></h1>
 <div class="quicks">

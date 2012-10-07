@@ -30,13 +30,11 @@ a{color:#fff;text-decoration:none;}
 
 /*.container,.header,.footer{width:1220px;margin:0 auto;padding:0 30px;}*/
 
-.container,.header,.footer{width:1220px;margin:0 auto;padding:0 30px;}
+.container,.header,.footer{width:1200px;margin:0 auto;padding:0 30px;}
 /*.container,.header,.footer{width:1220px;margin:0 auto;padding:0 30px;}*/
-.container{padding:30px 30px 20px;}
+.container{padding:30px 0 20px;}
 /*.container{padding:30px 30px 20px;background:url(../img/main_bg.jpg) 0 0 repeat;}*/
 
-.main{width:880px;float:left;}
-.aside{width:300px;float:right;}
 
 /* font family */
 .nav li,.book-online h2,.btn-search,.home-steps h2 em,.home-steps li{font-family:Britannic Bold,Times New Roman, Times, serif;}
@@ -156,3 +154,44 @@ a{color:#fff;text-decoration:none;}
 .menu span a{border-bottom:1px solid #ccc;line-height:24px;padding:8px 10px;font-size:18px;color:#000;float:none;}
 .menu span a:hover{text-decoration:none; background:#fff; color:#333;}
 .menu .hideline{display:block;font-size:2px;height:2px;background:#eee;position:relative;margin-top:-2px;z-index:22;}
+
+
+/* ----------------------------- subpage base ----------------------------- */
+.aside{width:300px;float:left;}
+.main{width:880px;float:right;}
+.main-bg{background:#ccc url(../img/main_bglist.jpg) 0 0 repeat-x;}
+.detail{width:90%;margin:0 auto;min-height:500px;font-size:18px;padding:20px 0;}
+.main,.aside,.main a,.aside a,.detail,.detail a{color:#333;}
+.titbar{height:32px;line-height:32px;padding:10px 15px;background:url(../img/titbar.jpg) 0 0 repeat-x;margin:0 0 10px 0;}
+.titbar h2{display:inline;float:left;padding:0 40px 0 0;background:url(../img/ico_1.png) right 2px no-repeat;font-size:36px;}
+.titbar h2,.pd-item dd.price p span,.pd-item dd.continue,.pd-item dd.price .num,.news-item dd.price{font-family:Britannic Bold,Times New Roman, Times, serif;font-weight:bold;}
+
+/* ----------------------------- search ----------------------------- */
+.pd-item{margin:0 0 20px 0;}
+.pd-item h3{line-height:37px;display:inline;float:left;background:url(../img/search_item_tit.png) right 0 no-repeat;padding:0 90px 0 35px;font-size:24px;font-weight:normal;}
+.pd-item .inner{background:url(../img/search_item_shadow.png) right bottom no-repeat;padding:0 7px 9px 0;clear:both;}
+.pd-item .inner dl{background:#ccc url(../img/search_item_bg.jpg) 0 0 repeat-y;padding:18px 12px;line-height:1.3;}
+.pd-item dt,.pd-item dd{float:left;background:url(../img/v_line.png) right 0 no-repeat;font-size:16px;}
+.pd-item dt{width:210px;height:93px;padding:5px 20px 0 5px;margin:0 12px 0 0;}
+.pd-item dd{height:90px;padding:8px 15px 0 0;margin:0 18px 0 0;}
+.pd-item dd.info{width:390px;}
+.pd-item dd.info .type{width:200px;float:left;font-weight:normal;}
+.pd-item dd.info ul{width:140px;float:right;}
+.pd-item dd.price{width:260px;height:82px;padding-top:16px;line-height:1;}
+.pd-item dd.price .num{padding-top:8px;color:#C80909;font-size:36px;float:right;font-weight:bold;}
+.pd-item dd.price p{width:80px;float:left;font-size:24px;}
+.pd-item dd.price p span{display:block;font-size:28px;line-height:30px;}
+.pd-item dd.price p span em,.pd-item dd.price p span:first-letter{ color:#C80909;}
+.pd-item dd.continue{width:140px;height:auto;padding:30px 0 0 0;float:right;background:none;}
+.pd-item dd.continue a{float:left;line-height:36px;padding:0 6px;background:#000;font-size:30px;}
+.pd-item dd.continue a:hover{color:#ccc;}
+
+/* ----------------------------- news ----------------------------- */
+.news-items{padding:25px 0 0;}
+.news-item{margin:0 0 50px 0;font-size:20px;}
+.news-item .inner{background:url(../img/search_item_shadow.png) right bottom no-repeat;padding:0 7px 9px 0;clear:both;}
+.news-item .inner dl{background:#ccc url(../img/news_item_bg.jpg) 0 0 repeat-y;padding:18px 12px;line-height:1.3;}
+.news-item dt{ width:220px;background:url(../img/v_line.png) right 0 repeat-y;padding:8px 0 8px 15px;float:left;margin:0 55px 0 0;}
+.news-item dt img{width:178px;}
+.news-item dd.info{ width:520px;height:78px;line-height:26px;float:left;padding:10px 0 0;overflow:hidden;}
+.news-item dd.price{width:210px;float:right;padding:10px 0 0;font-size:60px;color:#C80909;}

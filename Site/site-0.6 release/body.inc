@@ -1,5 +1,5 @@
 <body>
-<div style=" width:auto; background:url(img/main_bglist.jpg) repeat-x #cccccc;height: 672px;">
+<div style=" width:auto; background:url(img/main_bglist.jpg) repeat-x #cccccc;height: 892px;">
 
 <div class="container">
    <!-- begin home-main-->
